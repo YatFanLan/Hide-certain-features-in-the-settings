@@ -1,6 +1,13 @@
+/* ==UserStyle==
+@name           Hide certain features in the settings
+@description    隐藏设置中的某些功能
+@version        0.1.0
+@homepageURL    https://github.com/YatFanLan/Hide-certain-features-in-the-settings
+@author         YatFanLan
+@license        gpl-3.0
+==/UserStyle== */
 /*隐藏设置中的某些功能*/
 /*隐藏设置中的通用界面的某些功能*/
-
 [data-v-526bdad1][data-v-46416654].setting-item-title.lite-tools-vue-component.vue-component {
   	display: none; /*隐藏安全设置字样*/
 } 
@@ -8,10 +15,9 @@
   	display: none; /*隐藏使用QQ浏览器打开选项*/
 }
 
-[data-v-526bdad1][data-v-007e3879].setting-item-title.lite-tools-vue-component.vue-component {
+[data-v-526bdad1][data-v-5a06a99a].setting-item-title.lite-tools-vue-component.vue-component {
   	display: none; /*隐藏软件更新字样*/
 }
-[data-v-007e3879].panel-main{
+[data-v-5a06a99a].panel-main{
 	display: none; /*隐藏软件更新选项*/
 }
-/*注：9.9.15-27597  版本选择另一个class文件  这个文件中的下边两行将不起作用*/
