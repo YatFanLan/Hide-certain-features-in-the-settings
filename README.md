@@ -10,3 +10,6 @@
 打开 transitio 插件的设置页面，在 CSS 片段列表中，导入 Hide-certain-features-in-the-settings.css 文件
 
 开启 Hide-certain-features-in-the-settings 项的开关，即可
+
+
+注意：9.9.15-27597 之前的版本使用Hide certain features in the settings0.2.css,  Hide certain features in the settings.css文件不起作用
