@@ -7,18 +7,18 @@
 @author         YatFanLan
 @license        gpl-3.0
 ==/UserStyle== */
-/隐藏设置中的某些功能/
-/隐藏设置中的通用界面的某些功能/
+/*隐藏设置中的某些功能*/
+/*隐藏设置中的通用界面的某些功能*/
 [data-v-526bdad1][data-v-46416654].setting-item-title.lite-tools-vue-component.vue-component {
-display: none; /隐藏安全设置字样/
+  	display: none; /*隐藏安全设置字样*/
 }
 .panel-main[data-v-46416654] {
-display: none; /隐藏使用QQ浏览器打开选项/
+  	display: none; /*隐藏使用QQ浏览器打开选项*/
 }
 
 [data-v-526bdad1][data-v-007e3879].setting-item-title.lite-tools-vue-component.vue-component {
-display: none; /隐藏软件更新字样/
+  	display: none; /*隐藏软件更新字样*/
 }
 [data-v-007e3879].panel-main{
-display: none; /隐藏软件更新选项/
+	display: none; /*隐藏软件更新选项*/
 }
